@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "faes_poke:poke_pile"
+    }
+  ],
+  "result": {
+    "item": "faes_poke:poke",
+    "count": 8
+  }
+}

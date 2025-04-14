@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "amount=1,facing=east": { "model": "faes_poke:block/poke_pile", "y": 90 },
+    "amount=2,facing=east": { "model": "faes_poke:block/poke_pile2", "y": 90 },
+    "amount=3,facing=east": { "model": "faes_poke:block/poke_pile3", "y": 90 },
+    "amount=4,facing=east": { "model": "faes_poke:block/poke_pile4", "y": 90 },
+    "amount=1,facing=north": { "model": "faes_poke:block/poke_pile" },
+    "amount=2,facing=north": { "model": "faes_poke:block/poke_pile2" },
+    "amount=3,facing=north": { "model": "faes_poke:block/poke_pile3" },
+    "amount=4,facing=north": { "model": "faes_poke:block/poke_pile4" },
+    "amount=1,facing=south": { "model": "faes_poke:block/poke_pile", "y": 180 },
+    "amount=2,facing=south": { "model": "faes_poke:block/poke_pile2", "y": 180 },
+    "amount=3,facing=south": { "model": "faes_poke:block/poke_pile3", "y": 180 },
+    "amount=4,facing=south": { "model": "faes_poke:block/poke_pile4", "y": 180 },
+    "amount=1,facing=west": { "model": "faes_poke:block/poke_pile", "y": 270 },
+    "amount=2,facing=west": { "model": "faes_poke:block/poke_pile2", "y": 270 },
+    "amount=3,facing=west": { "model": "faes_poke:block/poke_pile3", "y": 270 },
+    "amount=4,facing=west": { "model": "faes_poke:block/poke_pile4", "y": 270 }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    },
+    {
+      "item": "faes_poke:poke"
+    }
+  ],
+  "result": {
+    "item": "faes_poke:poke_pile",
+    "count": 1
+  }
+}
