@@ -15,15 +15,15 @@
 		"sources": "${mod_github}"
 	},
 	"license": "${mod_license}",
-	"icon": "assets/faes_poke/icon.png",
+	"icon": "assets/faes_pokemon_dollars/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-      "github.fayvira.fabric.faes_poke.FaesPoke"
+      "github.fayvira.fabric.faes_pokemon_dollars.FaesPokeDollars"
 		]
 	},
 	"mixins": [
-		"faes_poke.mixins.json"
+		"faes_pokemon_dollars.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabric_loader_version}",

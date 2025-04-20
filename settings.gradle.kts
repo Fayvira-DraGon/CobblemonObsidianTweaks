@@ -1,4 +1,4 @@
-rootProject.name = "Fae's Poké" //By default, this is how your built jar is called
+rootProject.name = "Fae's Pokémon Dollars" //By default, this is how your built jar is called
 
 pluginManagement {
   repositories {

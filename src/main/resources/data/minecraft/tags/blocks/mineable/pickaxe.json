@@ -1,6 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "faes_poke:poke",
-    "faes_poke:poke_pile"
+    "faes_pokemon_dollars:poke",
+    "faes_pokemon_dollars:poke_pile"
   ]
 }

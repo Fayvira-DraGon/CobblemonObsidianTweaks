@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "faes_pokemon_dollars:block/poke_bottom",
+		"1": "faes_pokemon_dollars:block/poke_side",
+		"2": "faes_pokemon_dollars:block/poke_top",
+		"particle": "faes_pokemon_dollars:block/poke_top"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 1, 11],
+			"faces": {
+				"north": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

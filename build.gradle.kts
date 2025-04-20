@@ -9,7 +9,7 @@ val propertiesMap = mapOf(
   "cobblemon_version" to "1.6.1+1.21.1",
   "devauth_version" to "1.2.1",
   "fabric_api_version" to "0.115.4+1.21.1",
-  "fabric_loader_version" to "0.16.10",
+  "fabric_loader_version" to "0.16.13",
   "java_version" to 21,
   "kotlin_stdlib" to "jdk8",
   "kotlin_version" to "1.13.2+kotlin.2.1.20",
@@ -17,14 +17,14 @@ val propertiesMap = mapOf(
   "mod_archives_name" to "Fae's Poké",
   "mod_authors" to "Fayvira-DraGon",
   "mod_credits" to "Blue Azul, Laxan3000, & Smokiemario",
-  "mod_description" to "Isolating the Cobblefoods Poke into a standalone mod!",
-  "mod_github" to "https://github.com/Fayvira-DraGon/FaesPoke.git",
+  "mod_description" to "Adding Pokemon Dollars based on the the Cobblefoods Poke!",
+  "mod_github" to "https://github.com/Fayvira-DraGon/FaesPokemonDollars.git",
   "mod_group" to "github.fayvira.fabric",
-  "mod_id" to "faes_poke",
+  "mod_id" to "faes_pokemon_dollars",
   "mod_license" to "MIT License",
-  "mod_modrinth" to "https://modrinth.com/mod/faes-poke",
-  "mod_name" to "FaesPoke",
-  "mod_version" to "1.4.0-1.20.1",
+  "mod_modrinth" to "https://modrinth.com/mod/faes-pokemon-dollars",
+  "mod_name" to "FaesPokeDollars",
+  "mod_version" to "0.1.2-1.20.1",
   "yarn_mappings" to "1.21.1+build.3:v2"
 )
 
@@ -46,6 +46,8 @@ loom {
   runs {
     create("devauth") {
       client()
+      property("mixin.debug.export", "true")
+      property("mixin.dumpTargetOnFailure", "true")
       property("devauth.enabled", "true") // devauth: enable
       property("devauth.account", "main") // account type: minecraft
     }
