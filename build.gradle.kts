@@ -22,11 +22,11 @@ val propertiesMap: Map<String, Any> = mapOf(
   "mod_description" to "Various tweaks for the Cobblemon Obsidian server.",
   "mod_github" to "https://github.com/Fayvira-DraGon/CobblemonObsidianTweaks.git",
   "mod_group" to "github.fayvira.fabric",
-  "mod_homepage" to "https://modrinth.com/mod/cobblemon-obsidian-tweaks",
+  "mod_modrinth" to "https://modrinth.com/mod/cobblemon-obsidian-tweaks",
   "mod_id" to "cobblemon_obsidian_tweaks",
   "mod_license" to "MIT License",
   "mod_name" to "CobblemonObsidianTweaks",
-  "mod_version" to "0.2.0-1.21.1",
+  "mod_version" to "0.2.1-1.21.1",
   "modmenu_version" to "11.0.3",
   "yarn_mappings" to "1.21.1+build.3:v2"
 )
