@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cobblemon_obsidian_tweaks:block/poke_bottom",
+		"1": "cobblemon_obsidian_tweaks:block/poke_side",
+		"2": "cobblemon_obsidian_tweaks:block/poke_top",
+		"particle": "cobblemon_obsidian_tweaks:block/poke_top"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 2],
+			"to": [7, 1, 8],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 0.5, 4]},
+			"faces": {
+				"north": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4, 1, 6],
+			"to": [10, 2, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 0.5, 4]},
+			"faces": {
+				"north": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [9.24507, 0, 1.82264],
+			"to": [15.24507, 1, 7.82264],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.24507, 0.5, 6.82264]},
+			"faces": {
+				"north": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4.80599, 0, 7.38731],
+			"to": [10.80599, 1, 13.38731],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [4.80599, 0.5, 11.38731]},
+			"faces": {
+				"north": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 15, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

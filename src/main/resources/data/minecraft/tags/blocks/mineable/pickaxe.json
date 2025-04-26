@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "faes_pokemon_dollars:poke",
-    "faes_pokemon_dollars:poke_pile"
+    "cobblemon_obsidian_tweaks:poke",
+    "cobblemon_obsidian_tweaks:poke_fiver"
   ]
 }

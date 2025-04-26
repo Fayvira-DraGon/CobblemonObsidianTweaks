@@ -15,15 +15,15 @@
 		"sources": "${mod_github}"
 	},
 	"license": "${mod_license}",
-	"icon": "assets/faes_pokemon_dollars/icon.png",
+	"icon": "assets/cobblemon_obsidian_tweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-      "github.fayvira.fabric.faes_pokemon_dollars.FaesPokeDollars"
+      "github.fayvira.fabric.cobblemon_obsidian_tweaks.CobblemonObsidianTweaks"
 		]
 	},
 	"mixins": [
-		"faes_pokemon_dollars.mixins.json"
+		"cobblemon_obsidian_tweaks.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabric_loader_version}",
