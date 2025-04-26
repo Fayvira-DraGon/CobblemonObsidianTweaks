@@ -1,0 +1,148 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "2"
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "3"
+                      }
+                    }
+                  ],
+                  "count": 3.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "4"
+                      }
+                    }
+                  ],
+                  "count": 4,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "cobblemon_obsidian_tweaks:poke_fiver"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "1"
+                      }
+                    }
+                  ],
+                  "count": 9.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "2"
+                      }
+                    }
+                  ],
+                  "count": 18.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "3"
+                      }
+                    }
+                  ],
+                  "count": 27.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "cobblemon_obsidian_tweaks:poke_fiver",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "amount": "4"
+                      }
+                    }
+                  ],
+                  "count": 36,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "cobblemon_obsidian_tweaks:poke"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

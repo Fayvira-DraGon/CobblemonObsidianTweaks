@@ -1,2 +1,5 @@
-# Fae's Poké
-Isolates the Poké & Pile of Poké blocks from Cobble Foods as a standalone mod.
+# Cobblemon Obsidian Tweaks
+Various tweaks for Cobblemon Obsidian server.
+
+## Credits
+Art by [Gregorius](https://linktr.ee/gregorius02) 

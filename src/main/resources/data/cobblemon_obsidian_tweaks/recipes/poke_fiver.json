@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemon_obsidian_tweaks:poke"
+    },
+    {
+      "item": "cobblemon_obsidian_tweaks:poke"
+    },
+    {
+      "item": "cobblemon_obsidian_tweaks:poke"
+    },
+    {
+      "item": "cobblemon_obsidian_tweaks:poke"
+    },
+    {
+      "item": "cobblemon_obsidian_tweaks:poke"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon_obsidian_tweaks:poke_fiver"
+  }
+}

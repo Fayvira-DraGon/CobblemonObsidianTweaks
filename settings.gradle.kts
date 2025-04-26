@@ -1,4 +1,4 @@
-rootProject.name = "Fae's Pokémon Dollars" //By default, this is how your built jar is called
+rootProject.name = "Cobblemon Obsidian Tweaks" //By default, this is how your built jar is called
 
 pluginManagement {
   repositories {

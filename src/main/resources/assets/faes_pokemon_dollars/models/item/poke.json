@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "faes_pokemon_dollars:item/poke"
-  }
-}

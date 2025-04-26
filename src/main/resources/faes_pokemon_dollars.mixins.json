@@ -1,9 +1,0 @@
-{
-  "required": true,
-  "package": "github.fayvira.fabric.faes_pokemon_dollars.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "mixins": [ ],
-  "injectors": {
-    "defaultRequire": 1
-  }
-}
