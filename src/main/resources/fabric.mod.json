@@ -1,35 +1,36 @@
 {
-	"schemaVersion": 1,
-	"id": "${mod_id}",
-	"version": "${mod_version}",
-	"name": "${mod_archives_name}",
-	"description": "${mod_description}",
-	"authors": [
-		"${mod_authors}"
-	],
-	"credits": [
-		"${mod_credits}"
-	],
-	"contact": {
-		"modrinth": "${mod_modrinth}",
-		"sources": "${mod_github}"
-	},
-	"license": "${mod_license}",
-	"icon": "assets/cobblemon_obsidian_tweaks/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_archives_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_authors}"
+  ],
+  "contributors": [
+    "[Gregorius](https://linktr.ee/gregorius02): Artwork — coin assets",
+    "[Mechavoids](https://linktr.ee/mechavoids): Artwork — mod icon"
+  ],
+  "contact": {
+    "modrinth": "https://modrinth.com/mod/cobblemon-obsidian-tweaks",
+    "sources": "https://github.com/Fayvira-DraGon/CobblemonObsidianTweaks.git"
+  },
+  "license": "MIT License",
+  "icon": "assets/cobblemon_obsidian_tweaks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
       "github.fayvira.fabric.cobblemon_obsidian_tweaks.CobblemonObsidianTweaks"
-		]
-	},
-	"mixins": [
-		"cobblemon_obsidian_tweaks.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=${fabric_loader_version}",
-		"minecraft": "${minecraft_version}",
-		"java": "${java_version}",
-		"fabric": "*",
-		"cobblemon": "${cobblemon_version}"
-	}
+    ]
+  },
+  "mixins": [
+    "cobblemon_obsidian_tweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cobblemon": ">=1.6.1+1.21.1"
+  }
 }
